@@ -339,3 +339,57 @@ main{
 .resent-news .card-2 .content{
     margin-left: 48px;
 }
+
+/* donate-section start */
+
+.donate-section{
+    text-align: center;
+    margin-top: 80px;
+}
+.donate-section .content h1{
+    font-size: 40px;
+    margin: 24px;
+}
+.donate-section .content p{
+    width: 1104px;
+    color: #6e6b6b;
+    margin: 32px auto;
+    font-size: 16px;
+   
+}
+.donate-section .options button{
+    width: 240px;
+    height: 128px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 16px;
+    margin: 12px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #0E0E0E;
+}
+.donate-section .options button:hover{
+    background-color: #C6E4D6;
+}
+
+.donate-section input{
+    width: 1000px;
+    height: 50px;
+    margin: 32px;
+    text-align: center;
+    border: none;
+}
+.donate-section button {
+    width: 151px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 500px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+}
+.donate-section button:hover{
+    background-color: #57a893;
+    color: #0E0E0E;
+}
