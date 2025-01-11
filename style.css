@@ -303,10 +303,7 @@ main{
     height: 402px;
     background-color: #FFFFFF;
     padding-top: 10px;
-    padding-left: 48px;
-    padding-right: 48px;
     margin-top: 32px;
-    gap: 24px;
     border-radius: 24px;
 
     
@@ -315,6 +312,8 @@ main{
     width: 408px; 
     height: 306px; 
     border-radius: 24px;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 .resent-news .time p{
     display: inline;
@@ -337,3 +336,6 @@ main{
     color: #006A50;
 }
 
+.resent-news .card-2 .content{
+    margin-left: 48px;
+}
