@@ -7,6 +7,8 @@ body{
     max-width: 1440px;
     margin: auto;
     background-color: #F1F1F3;
+    font-family: "Fira Sans", serif;
+
 
 }
 
@@ -29,7 +31,10 @@ nav{
     font-weight: <weight>;
     font-style: normal;
     padding-top: 40px;
-
+}
+.logo a{
+    text-decoration: none;
+    color: #0E0E0E;
 }
 nav .sign-in-btn{
     padding-top: 40px;
@@ -162,4 +167,103 @@ main{
     color: #0E0E0E;
     font-size: 21px;
     padding-top: 20px;
+}
+
+
+/* The Vision of Future start */
+
+.vision-section{
+    margin-top: 80px;
+}
+
+.vision-section h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "fira Sans", serif;
+}
+
+.vision-section p{
+    font-size: 18px;
+    color: #0E0E0E;
+    margin-top: 24px;
+}
+.vision-cards {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+.vision-cards .card-1 {
+    width: 410.67px;
+    height: 325px;
+    background-color: #c3d2eb;
+    border-radius: 16px;
+    padding: 20px;
+}
+.vision-cards .card-2 {
+    width: 410.67px;
+    height: 325px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 20px;
+}
+.vision-cards .card-3 {
+    width: 410.67px;
+    height: 325px;
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.vision-cards div {
+    margin: 24px 0;
+}
+
+.vision-cards h4 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+}
+
+.vision-cards p {
+    font-size: 16px;
+    color: #0E0E0E;
+}
+
+.vision-cards .btn {
+    width: 122px;
+    height: 41px;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 30px;
+}
+
+.about-yunus{
+    margin: 20px -40px;
+    padding: 20px;
+    width: 1280px;
+    background-color: white;
+    border-radius: 8px;
+    background-image: url(assets/quote-bg.png);
+    background-position: 31px 3px;
+    background-repeat: no-repeat; 
+
+}
+.about-yunus p{
+    font-size: 16px;
+    color: #6e6b6b;
+}
+.about-yunus div{
+    margin: 12px;
+
+}
+.about-yunus h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.about-yunus div p{
+    margin: 0;
 }
