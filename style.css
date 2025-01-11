@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1440px;
+    margin: auto;
+    background-color: #F1F1F3;
+
+}
+
+
+/* nav start */
+
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 700px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 32;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding-top: 40px;
+
+}
+nav .sign-in-btn{
+    padding-top: 40px;
+
+}
+nav .sign-in-btn button{
+    width: 116px;
+    height: 52px;
+    font-size: 18px;
+    font-family: "Work Sans", serif;
+    border-color: #006A50;
+    border-radius: 8px;
+    
+}
+
+nav .sign-in-btn button:hover{
+    width: 116px;
+    height: 52px;
+    font-size: 18px;
+    font-family: "Work Sans", serif;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+}
+
+/* nav end */
+/* hero-start */
+
+.hero-section{
+    width: 1280px;
+    height: 560px;
+    background-color: #C6E4D6;
+    margin: 50px auto;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+
+}
+.hero-content{
+
+    width: 622px;
+    height: 326px;
+    
+
+}
+.hero-content h3{
+    font-size: 24px;
+    color: #6e6b6b;
+
+}
+.hero-content h1{
+    font-weight: bold;
+    font-size: 56px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+
+
+
+
+.hero-content button {
+    width: 270px;
+    height: 56px;
+    font-size: 18px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.hero-content button:hover {
+    font-family: "Work Sans", serif;
+    color: rgb(28, 6, 6);
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+
+.hero-img{
+    width: 474.03px;
+    height: 400px;
+
+
+}
+main{
+    width: 1280px;
+    margin: auto;
+}
+
+.pillars-cards-header h2{
+    font-weight: 400;
+    font-size: 40px;
+    font-family: "fira Sans", serif;
+    padding-top: 40px;
+
+
+}
+
+.pillars-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    gap: 25px;
+}
+.pillars-cards .card{
+    width: 300px;
+    height: 240px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 20px;
+}
+.pillars-cards .card h4{
+    font-weight: bold;
+    font-family: Fira Sans;
+    font-size: 30px;
+    color: #0E0E0E;
+    margin-top: 40px;
+
+}
+.pillars-cards .card p{
+
+    color: #0E0E0E;
+    font-size: 21px;
+    padding-top: 20px;
+}
