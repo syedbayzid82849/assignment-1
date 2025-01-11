@@ -252,30 +252,19 @@ main{
 }
 
 .about-yunus{
-    margin: 20px -40px;
-    padding: 20px;
-    width: 1280px;
+    padding: 48px 24px;
     background-color: white;
     border-radius: 8px;
     background-image: url(assets/quote-bg.png);
-    background-position: 31px 3px;
+    background-position: 26px 20px;
     background-repeat: no-repeat; 
 
 }
-.about-yunus p{
-    font-size: 16px;
-    color: #6e6b6b;
+.about-yunus .spech{
+    margin: 0 0 18px 0 ;
 }
-.about-yunus div{
-    margin: 12px;
-
-}
-.about-yunus h4{
-    font-weight: 600;
-    font-size: 20px;
-}
-.about-yunus div p{
-    margin: 0;
+.about-yunus .content-2{
+    margin: 10px 0;
 }
 
 /* resent-news-section start */
@@ -393,3 +382,61 @@ main{
     background-color: #57a893;
     color: #0E0E0E;
 }
+
+/* Subscribe section start */
+
+.subscribe-section{
+    text-align: center;
+    margin: 80px;
+}
+
+.subscribe-content{
+    width: 750px;
+    height: 112px;
+    margin: 24px auto;
+}
+.subscribe-content p{
+    padding: 20px;
+    font-size: 16px;
+    color: #6e6b6b;
+
+}
+.subscribe-content h1{
+    font-size: 40px;
+}
+.subscribe-form{
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.subscribe-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    width: 70%;
+}
+  
+.subscribe-form button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #228b22; /* Green */
+    border: none;
+    border-radius: 0 8px 8px 0;
+}
+  
+.subscribe-form button:hover {
+    background-color: #0a5208;
+}
+   
+.subscribe-section span{
+    margin-top: 1000px;
+    color: #888;
+} 
+
+
+
+/* footer start */
+
