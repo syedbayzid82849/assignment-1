@@ -232,7 +232,7 @@ main{
     color: #0E0E0E;
 }
 
-.vision-cards .btn {
+.vision-section .vision-cards .btn {
     width: 122px;
     height: 41px;
     background-color: #5490F5;
@@ -388,6 +388,9 @@ main{
 .subscribe-section{
     text-align: center;
     margin: 80px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 60px;
 }
 
 .subscribe-content{
@@ -435,8 +438,43 @@ main{
     margin-top: 1000px;
     color: #888;
 } 
+ 
+/* footer start  */
 
 
+.footer {
+    text-align: center;
+    padding: 80px;
+    background-color: #f9f9f9; 
+    border-radius: 20px;
+}
 
-/* footer start */
+.footer h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    color: #000;
+}
 
+.footer .line {
+    width: 70%;
+    height: 1px;
+    background-color: #ccc;
+    margin:40px auto;
+}
+
+.footer .icon {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.footer .icon a {
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+}
+
+.footer .icon a:hover {
+    color: #007bff; 
+}
